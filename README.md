@@ -1,7 +1,7 @@
 # GOKZ-Manual-Recorder-and-Replay-Viewer
 
-sm_manualrecord or /manualrecord (toggles record start/end)
-sm_manualreplay or /manualreplay   (opens separate replay menu for manual recorded replays)
+- sm_manualrecord or /manualrecord (toggles record start/end)
+- sm_manualreplay or /manualreplay   (opens separate replay menu for manual recorded replays)
 - The manualreplay organizes by mode and filename is "mapname | mode | date
 - .replays are created in data/gokz-replays/_manual/[steamid]/mapname_***_mode.replay
 
