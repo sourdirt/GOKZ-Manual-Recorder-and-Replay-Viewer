@@ -12,10 +12,10 @@
 public Plugin myinfo =
 {
 	name = "GOKZ Manual Replays",
-	author = "Codex",
+	author = "sourdirt",
 	description = "Standalone manual replay recorder/browser for GOKZ",
-	version = "1.0.0",
-	url = ""
+	version = "1.0.1a",
+	url = "https://github.com/sourdirt"
 };
 
 static bool gB_Recording[MAXPLAYERS + 1];
