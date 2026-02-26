@@ -1,8 +1,39 @@
-# GOKZ-Manual-Recorder-and-Replay-Viewer
+# GOKZ Manual Recorder and Replay Viewer
 
-- sm_manualrecord or /manualrecord (toggles record start/end)
-- sm_manualreplay or /manualreplay   (opens separate replay menu for manual recorded replays)
-- The manualreplay organizes by mode and filename is "mapname | mode | date
-- .replays are created in data/gokz-replays/_manual/[steamid]/mapname_***_mode.replay
+A drag-and-drop SourceMod plugin for GOKZ that lets you manually record and watch `.replay` files without modifying core `gokz-hud` or `gokz-replays` files.
 
-This is a drag and drop sourcemod plugin I made that let's you manually record .replays aswell as watch them without modifying or interfereing with gokz files. Only requires some natives etc. Please feel free to use my source but obviously non-profit and shoutouts are always appreciated <3
+## Commands
+
+- `sm_manualrecord` or `/manualrecord`  
+  Toggle manual recording start/stop.
+
+- `sm_manualreplay` or `/manualreplay`  
+  Open the standalone replay menu for manual recordings.
+
+## Features
+
+- Standalone plugin workflow (no direct edits required to core GOKZ plugin files).
+- Manual replay browser organized by mode.
+- Replay entries shown with clean metadata (map/style/date).
+- Saves replay files in a dedicated per-player folder.
+
+## Replay File Location
+
+Manual replays are saved to:
+
+`addons/sourcemod/data/gokz-replays/_manual/<steamid>/`
+
+Filename format:
+
+`<mapname>_<timestamp>_<mode>_<style>.replay`
+
+## Requirements
+
+- GOKZ core plugins
+- `gokz-replays` (required for replay playback natives)
+
+## Notes
+
+- This plugin is intended for community/non-profit use.
+- You’re free to use and modify the source.
+- Credit/shoutouts are appreciated.
